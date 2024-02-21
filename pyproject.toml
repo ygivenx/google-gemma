@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "google-gemma"
+version = "0.1.0"
+description = ""
+authors = ["m"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+transformers = "^4.38.0"
+torch = "^2.2.0"
+huggingface-hub = {extras = ["cli", "torch"], version = "^0.20.3"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
